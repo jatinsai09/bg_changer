@@ -1,16 +1,25 @@
-# React + Vite
+Background Changer 🎨🖼️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web project that lets you change the background color or image of a webpage dynamically using buttons. Built with basic HTML, CSS, and JavaScript to demonstrate DOM manipulation and event handling.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Change background color with predefined options
 
-## React Compiler
+Change background image with fun visuals
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Easy-to-use UI with responsive buttons
 
-## Expanding the ESLint configuration
+Works fully in the browser (no backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+HTML – Structure of the page
+
+CSS – Styling and layout
+
+JavaScript – Dynamic background change logic
+
+📂 How It Works
+
+When a user clicks any button on the page, JavaScript listens for the event and updates the background style accordingly. This shows basic DOM selection and event handling in action.
